@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 .gridClass {
 display: grid;
 grid-template-areas: "header header header"
@@ -31,6 +32,7 @@ padding: 0 80px;
 font-weight: bold; 
 }
 
+
 nav { 
  
 border: 2px black solid
@@ -38,6 +40,7 @@ border: 2px black solid
 }
 
 header {
+  
   background-color: midnightblue;
   grid-area: header;
 }
@@ -50,6 +53,7 @@ grid-area: menu;
 }
 
 #footer {
+
 color: midnightblue;
 
 grid-area: footer; 
@@ -180,6 +184,14 @@ width: auto
   
 }
 
+.gridItem:hover {
+
+transform: scale(1.1);
+
+}
+
+
+
 a {text-decoration: none;
 color:whitesmoke; 
 font-weight: bold;
@@ -211,8 +223,8 @@ margin: 0 5px;
 }
 
 .menu li :hover {
-
 background: rgba(0, 0, 0, 0.3);
+transform: scale(1.1);
 }
 
 @media screen and (max-width:768px){
@@ -224,4 +236,9 @@ header label { display: block; }
 .menu li {  border-top: 1px solid white;}
 
 
+}
+
+h2 {
+  background-image:linear-gradient(to right, midnightblue, cadetblue);
+background-color:blueviolet
 }
