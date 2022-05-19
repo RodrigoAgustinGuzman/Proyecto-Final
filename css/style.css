@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-
+/*
 .gridClass {
 display: grid;
 grid-template-areas: "header header header"
@@ -14,7 +14,7 @@ grid-template-areas: "header header header"
 "footer footer footer";
 
  }
-
+*/
 h3 {
 
 background-color: beige;
