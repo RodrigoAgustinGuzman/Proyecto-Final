@@ -1,105 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-* { 
-
-    margin: 0;
-    padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
 
 .logo {
-  background-color: rgb(255, 254, 254);
-}
+  background-color: #fffefe; }
+
+h2 {
+  background-image: linear-gradient(to right, midnightblue, cadetblue);
+  background-color: blueviolet; }
 
 h3 {
-background-color: beige;
-color: midnightblue;
-font-family: 'Roboto', sans-serif;
-font-size: 20px; 
-text-align:left;
-}
-
-
-h1 {
-color: ghostwhite;
-font-size: 35px;
-padding: 0 80px;
-font-weight: bold; 
-}
-
+  background-color: beige;
+  color: midnightblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left; }
 
 header {
   background-color: midnightblue;
-  grid-area: header;
-}
-
+  grid-area: header; }
 
 .whatsapp {
   width: 70px;
   position: fixed;
   bottom: 10px;
   right: 10px;
-  z-index: 999;
-
-}
+  z-index: 999; }
 
 .whatsapp:hover {
-
-transform: scale(1.1);
-}
+  transform: scale(1.1); }
 
 .logoSanatorio {
-
   width: 50px;
-  height: 50px;
-}
+  height: 50px; }
 
 .logoFacebook {
   width: 50px;
   height: 50px;
-  margin: 10px 10px;
-  
-  }
-  
-  .logoFacebook:hover {
-    transform: scale(1.1);
-  }
-  
-  .logoInstagram {
+  margin: 10px 10px; }
+
+.logoFacebook:hover {
+  transform: scale(1.1); }
+
+.logoInstagram {
   width: 50px;
   height: 50px;
-  margin: 10px 10px;
-  
-  }
-  
-  .logoInstagram:hover {
-  transform: scale(1.1);
-  }
+  margin: 10px 10px; }
+
+.logoInstagram:hover {
+  transform: scale(1.1); }
 
 #footer {
-
   background-color: darkslategray;
-  border: 1px solid rgb(0, 0, 15);
+  border: 1px solid #00000f;
   height: 5rem;
-  text-align: left; 
+  text-align: left;
   display: flex;
   justify-content: center;
-
-grid-area: footer; 
-
-}
+  grid-area: footer; }
 
 .fondo {
-background-color: cadetblue;
-}
+  background-color: cadetblue; }
 
 .quienesSomos {
   margin-top: 20px;
   margin-bottom: 1rem;
-color: navy;
-}
+  color: navy; }
 
-section { font-family: 'Roboto', sans-serif;
-font-size: 20px;
-} 
+section {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; }
+
+.formContacto {
+  margin-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  width: 400px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  border-radius: 20px; }
 
 .formCv {
   margin-top: 2rem;
@@ -112,93 +96,55 @@ font-size: 20px;
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 1rem;
-  border-radius: 20px;
-}
+  border-radius: 20px; }
 
 .claseUbicacion {
-background-color: midnightblue;
-font-family: 'Roboto', sans-serif;
-font-size: 20px;
-color: ghostwhite;
-
-}
+  background-color: midnightblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite; }
 
 .claseContacto {
-background-color: beige;
-font-family: 'Roboto', sans-serif;
-font-size: 20px;
-color: rgb(13, 13, 243);
+  background-color: beige;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #0d0df3; }
 
-}
 .imagen {
-background-image: url(../imagenes/hall.png);  
-background-repeat: no-repeat;
-background-size: cover;
-height: 500px;
-}
-
-
-
-
-
-
-/*
-.imagen {
-top: 0;
-bottom: 0;
-left: 0;
-right: 0; 
-margin: 0, auto;
-max-width: 90%; 
-grid-area: imagen;
-}
-
-.imagenCirugia  {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  max-width: 90%;
-
-}
-*/
-.imagenCirugia {
-  background-image: url(../imagenes/emergencias.png);  
+  background-image: url(../imagenes/hall.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
-}
+  height: 500px; }
 
-.imgContacto {  
+.imgContacto {
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
   max-width: 90%;
-}
-.imgTrabaja{
+  display: flex;
+  justify-content: center; }
 
+.imgTrabaja {
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
   max-width: 90%;
-
-}
+  display: flex;
+  justify-content: center; }
 
 .imagenUbi {
-
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
   max-width: 90%;
-
-}
+  display: flex;
+  justify-content: center; }
 
 .gridContenedor {
   display: grid;
@@ -206,84 +152,34 @@ grid-area: imagen;
   grid-auto-rows: minmax(200px, auto);
   gap: 20px;
   padding: 20px;
-  grid-auto-flow: dense;
-
-}
-
+  grid-auto-flow: dense; }
 
 .gridItem {
   display: flex;
   align-items: center;
   justify-content: center;
-  
   background-color: #03afff;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
-}
+  background-repeat: no-repeat; }
 
 .gridItem:hover {
+  transform: scale(1.1); }
 
-transform: scale(1.1);
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase; }
 
-}
-
-
-a {text-decoration: none;
-color:whitesmoke; 
-font-weight: bold;
-display: block;
-text-transform: uppercase;
-}
-
-nav li {list-style-type: none;
-    display: inline-block;
-    font-weight: bold;
-    
-}
-
-.menu ul {
-background-color: blue;
-color: antiquewhite;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px; 
-    font-size: 20px;
-  
-}
-
-.menu li {
- /* border-right: 1px solid white;*/
-margin: 0 5px; 
-
-}
-
-.menu li :hover {
-background: rgba(0, 0, 0, 0.3);
-transform: scale(1.1);
-}
-
-@media screen and (max-width:768px){
-
-header label { display: block; }
-
-.menu ul { flex-direction: column; }
-
-.menu li {  border-top: 1px solid white;}
-
-.imagen { top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; 
-  margin: 0;
-  max-width: 90%; }
-}
-
-h2 {
-  background-image:linear-gradient(to right, midnightblue, cadetblue);
-background-color:blueviolet
-}
+@media screen and (max-width: 768px) {
+  .imagen {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    max-width: 90%; } }
