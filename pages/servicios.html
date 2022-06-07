@@ -12,31 +12,42 @@
   <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
   </head>
 <body>
     <header>
        
-        <h1>Logo</h1>
-
+        <div class="logo">
+            <h1> <a href="../index.html"><img src="https://sanatorioimm.com.ar/wp-content/uploads/logo_ppal.png"  alt="fotologo"></a></h1>
+            </div>
+        </header>
     </header>
-    <nav class="menu" >
-
-      <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../pages/servicios.html">Servicios</a></li>
-      <li><a href="../pages/trabajaconnosotros.html">Trabaja con nosotros</a></li>
-      <li><a href="../pages/ubicacion.html">Ubicacion</a></li>
-      <li><a href="../pages/contacto.html">Contacto</a></li>
-      </ul>
-
-           </nav>
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logoSanatorio" src="../imagenes/logosanatorio.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              <a class="nav-link" href="../pages/trabajaconnosotros.html">TrabajaconNosotros</a>
+              <a class="nav-link" href="../pages/ubicacion.html">Ubicacion</a>
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 <main>
-
+<!--icono whatsapp-->
+<div><a href="https://api.whatsapp.com/send?phone=+54%209%2011%206288-5828&text=Hola,%20Necesito%20mas%20informacion!"><img  class="whatsapp" src="../imagenes/whatsapp.png" alt="logoWhatsapp"></a>
+</div>
 
 <div>
-<img  class="imagenCirugia"  src="https://sanatorioimm.com.ar/wp-content/uploads/Medical-Emergency-Services-3-1024x683-768x512-1.jpg" alt=""  style="background-size: cover;" >
+<img  class="imagenCirugia"  src="">
 </div>
 <div class="animate__animated animate__flipInX">
 <h2>Servicios</h2>
@@ -45,19 +56,19 @@
 
 <div class="gridItem"
 style="background-image: url(https://sanatorioimm.com.ar/wp-content/uploads/kinesio.jpg);"
->Kinesiologia</div>
+><strong>Kinesiologia</strong></div>
 <div class="gridItem"
-style="background-image: url(https://sanatorioimm.com.ar/wp-content/uploads/lab.jpg);">Laboratorio</div>
+style="background-image: url(https://sanatorioimm.com.ar/wp-content/uploads/lab.jpg);"><strong>Laboratorio</strong></div>
 <div class="gridItem"
- style="background-image:url(https://sanatorioimm.com.ar/wp-content/uploads/WhatsApp-Image-2020-06-17-at-1.44.36-PM-1024x682.jpeg);">Hemodinamia</div>
+ style="background-image:url(https://sanatorioimm.com.ar/wp-content/uploads/WhatsApp-Image-2020-06-17-at-1.44.36-PM-1024x682.jpeg);"><strong>Hemodinamia</strong></div>
 <div class="gridItem" 
-style="background-image: url(https://sanatorioimm.com.ar/wp-content/uploads/cardilogia_864x576.jpg);">Cardiologia</div>
+style="background-image: url(https://sanatorioimm.com.ar/wp-content/uploads/cardilogia_864x576.jpg);"><strong>Cardiologia</strong></div>
 <div class="gridItem" 
-style="background-image: url(https://sanatorioimm.com.ar/wp-content/uploads/internacion-1.jpg);">Internacion</div>
+style="background-image: url(https://sanatorioimm.com.ar/wp-content/uploads/internacion-1.jpg);"><strong>Internacion</strong></div>
 <div class="gridItem"
-style="background-image: url(https://www.hospitalaustral.edu.ar/plandesalud/wp-content/uploads/2020/02/image_2_servicio_de_oftalmologia.jpg);">Oftalmologia</div>
+style="background-image: url(https://www.hospitalaustral.edu.ar/plandesalud/wp-content/uploads/2020/02/image_2_servicio_de_oftalmologia.jpg);"><strong>Oftalmologia</strong></div>
 <div class="gridItem"
-style="background-image: url(https://irp-cdn.multiscreensite.com/65f65883/DESKTOP/jpg/1708495-img-2-ambulancia-en-movimiento.jpg);">Emergencias</div>
+style="background-image: url(https://irp-cdn.multiscreensite.com/65f65883/DESKTOP/jpg/1708495-img-2-ambulancia-en-movimiento.jpg);"><strong>Emergencias</strong></div>
 
 
 
@@ -65,10 +76,14 @@ style="background-image: url(https://irp-cdn.multiscreensite.com/65f65883/DESKTO
 
 
             </main>
- 
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 <br></br>
 
-<footer  id="footer"  >Sitio web creado por <strong>Rodrigo Guzman</strong></footer>
+<footer  id="footer"><a href="https://www.facebook.com/InstitutoMedicoModeloSolano/"><img class="logoFacebook" src="../imagenes/fb_icon-icons.com_65434.png" alt="logoFace"></a>
+    <a href="https://www.instagram.com/sanatoriosolano/"> <img  class="logoInstagram" src="../imagenes/instagram.png" alt=""></a>
+ </footer>   
+
 
 </html>
