@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
 }
-
-.logo {
-  background-color: rgb(255, 254, 254);
-}
+@import "logos";
+@import "grid";
+@import "imagenes";
+@import "formulario";
+@import "boton";
 
 h2 {
   background-image:linear-gradient(to right, midnightblue, cadetblue);
@@ -30,47 +31,6 @@ header {
 }
 
 
-.whatsapp {
-  width: 70px;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 999;
-
-}
-
-.whatsapp:hover {
-
-transform: scale(1.1);
-}
-
-.logoSanatorio {
-
-  width: 50px;
-  height: 50px;
-}
-
-.logoFacebook {
-  width: 50px;
-  height: 50px;
-  margin: 10px 10px;
-  
-  }
-  
-  .logoFacebook:hover {
-    transform: scale(1.1);
-  }
-  
-  .logoInstagram {
-  width: 50px;
-  height: 50px;
-  margin: 10px 10px;
-  
-  }
-  
-  .logoInstagram:hover {
-  transform: scale(1.1);
-  }
 
 #footer {
 
@@ -98,34 +58,7 @@ color: navy;
 section { font-family: 'Roboto', sans-serif;
 font-size: 20px;
 } 
-.formContacto {
-  margin-top: 2rem;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  width: 400px;
-  margin: auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  margin-bottom: 1rem;
-  border-radius: 20px;
 
-
-}
-.formCv {
-  margin-top: 2rem;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  width: 400px;
-  margin: auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  margin-bottom: 1rem;
-  border-radius: 20px;
-}
 
 .claseUbicacion {
 background-color: midnightblue;
@@ -135,6 +68,7 @@ color: ghostwhite;
 
 }
 
+
 .claseContacto {
 background-color: beige;
 font-family: 'Roboto', sans-serif;
@@ -142,80 +76,7 @@ font-size: 20px;
 color: rgb(13, 13, 243);
 
 }
-.imagen {
-background-image: url(../imagenes/hall.png);  
-background-repeat: no-repeat;
-background-size: cover;
-height: 500px;
-}
 
-
-.imgContacto {  
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  max-width: 90%;
-  display: flex;
-  justify-content: center;
-}
-.imgTrabaja{
-
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  max-width: 90%;
-  display: flex;
-  justify-content: center;
-
-}
-
-.imagenUbi {
-
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  max-width: 90%;
-  display:flex;
-  justify-content:center
-
-}
-
-.gridContenedor {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
-  gap: 20px;
-  padding: 20px;
-  grid-auto-flow: dense;
-
-}
-
-
-.gridItem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  background-color: #03afff;
-  border-radius: 4px;
-  transition: transform 0.3s ease-in-out;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.gridItem:hover {
-
-transform: scale(1.1);
-
-}
 
 
 a {text-decoration: none;
@@ -229,11 +90,11 @@ text-transform: uppercase;
 
 @media screen and (max-width:768px){
 
-.imagen { top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; 
-  margin: 0;
-  max-width: 90%; }
+.formContacto, .formCv, .imagen {
+
+  width: 100%;
+}
+
+
 }
 
