@@ -9,92 +9,16 @@
 @import "imagenes";
 @import "formulario";
 @import "boton";
-
-h2 {
-  background-image:linear-gradient(to right, midnightblue, cadetblue);
-background-color:blueviolet
-}
-
-h3 {
-background-color: beige;
-color: midnightblue;
-font-family: 'Roboto', sans-serif;
-font-size: 20px; 
-text-align:left;
-}
+@import "footer";
+@import "clases";
+@import "medias";
+@import "titulos";
+@import "section";
 
 
 
-header {
-  background-color: midnightblue;
-  grid-area: header;
-}
 
 
 
-#footer {
 
-  background-color: darkslategray;
-  border: 1px solid rgb(0, 0, 15);
-  height: 5rem;
-  text-align: left; 
-  display: flex;
-  justify-content: center;
-
-grid-area: footer; 
-
-}
-
-.fondo {
-background-color: cadetblue;
-}
-
-.quienesSomos {
-  margin-top: 20px;
-  margin-bottom: 1rem;
-color: navy;
-}
-
-section { font-family: 'Roboto', sans-serif;
-font-size: 20px;
-} 
-
-
-.claseUbicacion {
-background-color: midnightblue;
-font-family: 'Roboto', sans-serif;
-font-size: 20px;
-color: ghostwhite;
-
-}
-
-
-.claseContacto {
-background-color: beige;
-font-family: 'Roboto', sans-serif;
-font-size: 20px;
-color: rgb(13, 13, 243);
-
-}
-
-
-
-a {text-decoration: none;
-color:whitesmoke; 
-font-weight: bold;
-display: block;
-text-transform: uppercase;
-}
-
-
-
-@media screen and (max-width:768px){
-
-.formContacto, .formCv, .imagen {
-
-  width: 100%;
-}
-
-
-}
 

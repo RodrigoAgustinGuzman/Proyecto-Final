@@ -1,0 +1,35 @@
+h2 {
+    background-image:linear-gradient(to right, midnightblue, cadetblue);
+  background-color:blueviolet
+  }
+  
+  h3 {
+  background-color: beige;
+  color: midnightblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; 
+  text-align:left;
+  }
+  
+  p {
+  line-height: 1.5;
+  color: black;
+  
+  }
+  
+  ul {
+    background-color:midnightblue;
+    color: antiquewhite;
+    list-style-type: none;
+    text-decoration: none;
+        list-style: none;
+        padding: 10px; 
+        font-size: 20px;
+  }
+  
+  a {text-decoration: none;
+    color:rgb(255, 255, 255); 
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }  
