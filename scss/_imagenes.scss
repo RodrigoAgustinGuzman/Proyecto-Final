@@ -22,7 +22,7 @@ justify-content: left;
 
    .box {
 flex-basis: 50%;
-color: midnightblue;
+color: $colorPrimario;
 text-align: left;
 align-self: center;
 
@@ -33,7 +33,7 @@ align-self: center;
    .banner {
    font-size: 80px;
    font-weight: 300px; 
-   color:midnightblue ;
+   color:$colorPrimario;
    text-align:start;
    font-family: Arial, Helvetica, sans-serif;
 
