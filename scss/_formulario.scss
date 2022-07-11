@@ -1,38 +1,39 @@
 .formFondo {
-    background-image: url(../imagenes/hall.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    .formContacto {
-      margin-top: 2rem;
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-      width: 400px;
-      margin: auto;
-      color: black;
-      background: rgba(0, 0, 0, 0.4);
-      padding: 10px 20px;
-      box-sizing: border-box;
-      margin-top: 20px;
-      margin-bottom: 1rem;
-      border-radius: 20px;
-    
-    
-    }
-    .formCv {
-      margin-top: 2rem;
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-      width: 400px;
-      margin: auto;
-      color: black;
-      background: rgba(0, 0, 0, 0.4);
-      padding: 10px 20px;
-      box-sizing: border-box;
-      margin-top: 20px;
-      margin-bottom: 1rem;
-      border-radius: 20px;
-    }
+  background-image: url(../imagenes/hall.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formContacto {
+  margin-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  width: 400px;
+  margin: auto;
+  color: black;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+
+
+}
+
+.formCv {
+  margin-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  width: 400px;
+  margin: auto;
+  color: black;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}

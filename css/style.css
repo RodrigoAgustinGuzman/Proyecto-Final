@@ -206,11 +206,13 @@
   color: #0d0df3; }
 
 @media screen and (max-width: 768px) {
-  .formContacto, .formCv {
+  .formContacto,
+  .formCv {
     width: 100%; } }
 
 @media screen and (max-width: 490px) {
-  .contenedor, .divFooter {
+  .contenedor,
+  .divFooter {
     display: none; } }
 
 h2 {

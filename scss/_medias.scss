@@ -1,18 +1,19 @@
+@media screen and (max-width:768px) {
 
-@media screen and (max-width:768px){
+  .formContacto,
+  .formCv {
 
-    .formContacto, .formCv{
-    
-      width: 100%;
-    }
-    }
-    
-    @media screen and (max-width:490px){
-    
-      .contenedor, .divFooter{
-    
-        display: none;
-    
-      }
-    
-    }
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:490px) {
+
+  .contenedor,
+  .divFooter {
+
+    display: none;
+
+  }
+
+}

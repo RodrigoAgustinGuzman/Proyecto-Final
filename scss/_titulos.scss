@@ -1,36 +1,37 @@
 h2 {
-    background-image:linear-gradient(to right, midnightblue, cadetblue);
-  background-color:blueviolet
-  }
-  
-  h3 {
-  margin-top: 20px;  
+  background-image: linear-gradient(to right, midnightblue, cadetblue);
+  background-color: blueviolet
+}
+
+h3 {
+  margin-top: 20px;
   background-color: beige;
   color: $colorPrimario;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px; 
-  text-align:left;
-  }
-  
-  p {
+  font-size: 20px;
+  text-align: left;
+}
+
+p {
   line-height: 1.5;
   color: black;
-  
-  }
-  
-  ul {
-    background-color:$colorPrimario;
-    color: antiquewhite;
-    list-style-type: none;
-    text-decoration: none;
-        list-style: none;
-        padding: 10px; 
-        font-size: 20px;
-  }
-  
-  a {text-decoration: none;
-    color:rgb(255, 255, 255); 
-    font-weight: bold;
-    display: block;
-    text-transform: uppercase;
-  }  
+
+}
+
+ul {
+  background-color: $colorPrimario;
+  color: antiquewhite;
+  list-style-type: none;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
